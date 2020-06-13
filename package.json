@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js -watch",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "web-vitals": "^0.2.2"
+  },
+  "devDependencies": {
+    "estrella": "^1.0.9",
+    "serve-http": "^1.0.6"
+  }
+}
